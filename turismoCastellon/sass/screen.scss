@@ -1,0 +1,155 @@
+.navbar {
+    background-color: #0646f6;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    color: white;
+
+    h5 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+}
+
+.section-uno {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    .article-izquierda {
+        font-size: 20px;
+        width: 72%;
+        display: inline-block;
+        margin-top: 80px;
+
+        header {
+            h1 {
+                margin-left: 25px;
+            }
+
+            p {
+                margin-left: 30px;
+            }
+        }
+    }
+
+    .article-derecha {
+        display: inline-block;
+        width: auto;
+        border: 1px solid #000;
+        margin-left: 10px;
+    }
+}
+
+.section-dos {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    .article-izquierda {
+        display: inline-block;
+        margin-left: 20px;
+        width: 70%;
+
+    }
+
+    .article-derecha {
+        font-size: 20px;
+        display: inline-block;
+        width: auto;
+        margin-left: 20px;
+    }
+}
+
+footer {
+    background-color: #0646f6;
+    font-size: 14px;
+
+}
+
+.titulos {
+    font-size: 30px;
+    color: #0646f6;
+}
+
+h1 {
+    color: #0646f6 !important;
+}
+
+.card-title.titulo-chef:hover {
+    text-decoration: underline;
+}
+
+.card-title {
+    color: #0646f6;
+}
+
+body.margin-si {
+    padding-top: 70px;
+}
+
+.row {
+    width: 100%;
+}
+
+.empleado {
+    margin-left: 15px;
+}
+
+.contenedor-button {
+    display: flex;
+    justify-content: center;
+}
+
+.my-button {
+    background-color: #6597fa; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .my-button:hover {
+    background-color: #6037f6; /* Dark green */
+  }
+  
+  .perfil-derecha{
+    margin-top: 200px;
+  }
+  .h{
+    font-size: 22px;
+  }
