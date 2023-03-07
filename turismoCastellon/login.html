@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Deluxe Restaurant</title>
+  <meta name="description" content="Somos un gimnasio A1 dedicados a cuidar y mantener tu cuerpo en forma." />
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" href="assets/images/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <link href="css/screen.css" rel="stylesheet" />
+  <link href="assets/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+</head>
+
+<body class="margin-si">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <a class="navbar-brand" href="index.html">
+      <img src="assets/images/letra-k-removebg-preview.png" width="30" height="30" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item ">
+          <a class="nav-link text-light" href="index.html">Inicio</a>
+        </li>
+
+        <li class="nav-item dropdown ml-2">
+          <a class="nav-link dropdown-toggle text-light" href="chefs.html" id="navbarDropdown" role="button"
+            data-toggle="dropdown">
+            Destinos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="castellon.html">Castellón</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="alcossebre.html">Alcossebre</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="benicassim.html">Benicassim</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="peñiscola.html">Peñiscola</a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-light ml-2" href="viaje.html">Personalizar Viaje</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light ml-2" href="contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light ml-2" href="profile.html">Mi Perfil</a>
+        </li>
+
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li>
+          <form class="form-inline  ">
+            <input class="form-control mr-sm-2" type="search" placeholder="">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="login-root">
+    <div class="contenedor">
+      <div class="loginbackground">
+        <div class="loginbackground-gridContainer">
+          <div class="primera-fila ">
+            <div></div>
+          </div>
+          <div class="segunda-fila">
+            <div></div>
+          </div>
+          <div class="tercera-fila">
+            <div ></div>
+          </div>
+          <div class="cuarta-fila">
+            <div></div>
+          </div>
+          <div class="quinta-fila">
+            <div></div>
+          </div>
+          <div class="sexta-fila ">
+            <div></div>
+          </div>
+          <div class="septima-fila ">
+            <div></div>
+          </div>
+          <div class="octava-fila">
+            <div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contenedor-login ">
+        <div class="contenedor-sesion">
+          <h1><a>Inicia Sesion</a></h1>
+        </div>
+        <div>
+          <div class="formulario">
+            <div class="titulo">
+              <span>Inicia sesión en tu cuenta</span>
+              <form>
+                <div class="field">
+                  <label>Email</label>
+                  <input type="email" name="email">
+                </div>
+                <div class="field">
+                  <div class="grid-mitad">
+                    <label>Contraseña</label>
+                    <div class="reset-pass">
+                      <a href="#">Contraseña olvidada</a>
+                    </div>
+                  </div>
+                  <input type="password" name="password">
+                </div>
+
+                <div class="field boton-enviar">
+                  <input type="submit" name="submit" value="Continuar">
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+
+<style>
+  .loginbackground-gridContainer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: [start] 1fr [left-gutter] (86.6px) [left-gutter] 1fr [end];
+    grid-template-columns: [start] 1fr [left-gutter] repeat(16, 86.6px) [left-gutter] 1fr [end];
+    -ms-grid-rows: [top] 1fr [top-gutter] (64px) [bottom-gutter] 1fr [bottom];
+    grid-template-rows: [top] 1fr [top-gutter] repeat(8, 64px) [bottom-gutter] 1fr [bottom];
+    justify-content: center;
+    margin: 0 -2%;
+    transform: rotate(-12deg) skew(-12deg);
+  }
+  span {
+    display: block;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1a1f36;
+  }
+
+  label {
+    margin-bottom: 10px;
+  }
+
+  .reset-pass a,
+  label {
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+  }
+
+  .reset-pass>a {
+    text-align: right;
+    margin-bottom: 10px;
+  }
+
+  .grid-mitad {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+  }
+
+  .field input {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 8px 16px;
+    width: 100%;
+    min-height: 44px;
+    border: unset;
+    border-radius: 4px;
+    outline-color: rgb(84 105 212 / 0.5);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+      rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+      rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+      rgba(60, 66, 87, 0.16) 0px 0px 0px 1px,
+      rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+      rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+      rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+  }
+
+  input[type="submit"] {
+    background-color: rgb(84, 105, 212);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+      rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+      rgba(0, 0, 0, 0.12) 0px 1px 1px 0px,
+      rgb(84, 105, 212) 0px 0px 0px 1px,
+      rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+      rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+      rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .field-checkbox input {
+    width: 20px;
+    height: 15px;
+    margin-right: 5px;
+    box-shadow: unset;
+    min-height: unset;
+  }
+
+  .field-checkbox label {
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+  @keyframes animationLeftRight {
+    0% {
+      transform: translateX(0px);
+    }
+
+    50% {
+      transform: translateX(1000px);
+    }
+
+    100% {
+      transform: translateX(0px);
+    }
+  }
+
+  @keyframes animationRightLeft {
+    0% {
+      transform: translateX(0px);
+    }
+
+    50% {
+      transform: translateX(-1000px);
+    }
+
+    100% {
+      transform: translateX(0px);
+    }
+  }
+</style>

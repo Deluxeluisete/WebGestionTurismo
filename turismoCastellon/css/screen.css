@@ -1,36 +1,36 @@
-/* line 1, ../sass/screen.scss */
+/* line 10, ../sass/screen.scss */
 .navbar {
   background-color: #0646f6;
 }
 
-/* line 5, ../sass/screen.scss */
+/* line 14, ../sass/screen.scss */
 .navbar-brand {
   font-size: 1.5rem;
   font-weight: bold;
   color: white;
 }
 
-/* line 11, ../sass/screen.scss */
+/* line 20, ../sass/screen.scss */
 .nav-item {
   font-size: 1.2rem;
 }
 
-/* line 15, ../sass/screen.scss */
+/* line 24, ../sass/screen.scss */
 .dropdown-menu {
   display: none;
 }
 
-/* line 19, ../sass/screen.scss */
+/* line 28, ../sass/screen.scss */
 .dropdown:hover .dropdown-menu {
   display: block;
 }
 
-/* line 23, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 .carousel-item {
   height: 500px;
 }
 
-/* line 27, ../sass/screen.scss */
+/* line 36, ../sass/screen.scss */
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5);
   bottom: 0;
@@ -39,37 +39,37 @@
   padding: 1rem;
   color: white;
 }
-/* line 35, ../sass/screen.scss */
+/* line 44, ../sass/screen.scss */
 .carousel-caption h5 {
   font-size: 1.5rem;
 }
-/* line 39, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 .carousel-caption p {
   font-size: 1.2rem;
 }
 
-/* line 44, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 .section-uno {
   display: flex;
   margin-bottom: 20px;
   margin-top: 20px;
 }
-/* line 49, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 .section-uno .article-izquierda {
   font-size: 20px;
   width: 72%;
   display: inline-block;
   margin-top: 80px;
 }
-/* line 56, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 .section-uno .article-izquierda header h1 {
   margin-left: 25px;
 }
-/* line 60, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 .section-uno .article-izquierda header p {
   margin-left: 30px;
 }
-/* line 66, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 .section-uno .article-derecha {
   display: inline-block;
   width: auto;
@@ -77,19 +77,19 @@
   margin-left: 10px;
 }
 
-/* line 74, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 .section-dos {
   display: flex;
   margin-bottom: 20px;
   margin-top: 20px;
 }
-/* line 79, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 .section-dos .article-izquierda {
   display: inline-block;
   margin-left: 20px;
   width: 70%;
 }
-/* line 86, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 .section-dos .article-derecha {
   font-size: 20px;
   display: inline-block;
@@ -97,55 +97,55 @@
   margin-left: 20px;
 }
 
-/* line 94, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
 footer {
   background-color: #0646f6;
   font-size: 14px;
 }
 
-/* line 100, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 .titulos {
   font-size: 30px;
   color: #0646f6;
 }
 
-/* line 105, ../sass/screen.scss */
+/* line 114, ../sass/screen.scss */
 h1 {
   color: #0646f6 !important;
 }
 
-/* line 109, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 .card-title.titulo-chef:hover {
   text-decoration: underline;
 }
 
-/* line 113, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 .card-title {
   color: #0646f6;
 }
 
-/* line 117, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 body.margin-si {
   padding-top: 70px;
 }
 
-/* line 121, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 .row {
   width: 100%;
 }
 
-/* line 125, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 .empleado {
   margin-left: 15px;
 }
 
-/* line 129, ../sass/screen.scss */
+/* line 138, ../sass/screen.scss */
 .contenedor-button {
   display: flex;
   justify-content: center;
 }
 
-/* line 134, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 .my-button {
   background-color: #6597fa;
   /* Green */
@@ -159,18 +159,196 @@ body.margin-si {
   border-radius: 5px;
 }
 
-/* line 146, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 .my-button:hover {
   background-color: #6037f6;
   /* Dark green */
 }
 
-/* line 150, ../sass/screen.scss */
+/* line 161, ../sass/screen.scss */
 .perfil-derecha {
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
-/* line 153, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 .h {
   font-size: 22px;
+}
+
+/* line 171, ../sass/screen.scss */
+.contenedor-login {
+  box-sizing: border-box;
+  padding-top: 24px;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  flex-grow: 1;
+  z-index: 9;
+}
+/* line 180, ../sass/screen.scss */
+.contenedor-login .contenedor-sesion {
+  box-sizing: border-box;
+  padding-top: 48px;
+  padding-bottom: 24px;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+/* line 191, ../sass/screen.scss */
+.contenedor-login div .formulario {
+  margin: auto;
+  width: 100%;
+  max-width: 448px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+}
+/* line 199, ../sass/screen.scss */
+.contenedor-login div .formulario .titulo {
+  padding: 48px;
+}
+/* line 202, ../sass/screen.scss */
+.contenedor-login div .formulario .titulo span {
+  padding-bottom: 15px;
+}
+/* line 207, ../sass/screen.scss */
+.contenedor-login div .formulario .titulo form .field {
+  padding-bottom: 24px;
+}
+/* line 213, ../sass/screen.scss */
+.contenedor-login div .formulario .titulo form .boton-enviar {
+  padding-bottom: 24px;
+}
+
+/* line 222, ../sass/screen.scss */
+.login-root {
+  background: #fff;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+/* line 229, ../sass/screen.scss */
+.login-root .contenedor {
+  box-sizing: border-box;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+  flex-grow: 1;
+}
+/* line 237, ../sass/screen.scss */
+.login-root .contenedor .loginbackground {
+  min-height: 692px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  padding-top: 64px;
+}
+/* line 251, ../sass/screen.scss */
+.login-root .contenedor .loginbackground .loginbackground-gridContainer .primera-fila {
+  box-sizing: border-box;
+  display: flex;
+  grid-area: top/start/8/end;
+}
+/* line 256, ../sass/screen.scss */
+.login-root .contenedor .loginbackground .loginbackground-gridContainer .primera-fila div {
+  box-sizing: border-box;
+  flex-grow: 1;
+  background-image: linear-gradient(white 0%, #f7fafc 33%);
+}
+/* line 251, ../sass/screen.scss */
+.login-root .contenedor .loginbackground .loginbackground-gridContainer .segunda-fila {
+  box-sizing: border-box;
+  display: flex;
+  grid-area: 4/2/auto/5;
+}
+/* line 256, ../sass/screen.scss */
+.login-root .contenedor .loginbackground .loginbackground-gridContainer .segunda-fila div {
+  box-sizing: border-box;
+  flex-grow: 1;
+  box-shadow: inset 0 0 0 2px #e3e8ee;
+  animation: animationLeftRight 3s ease-in-out infinite;
+}
+/* line 251, ../sass/screen.scss */
+.login-root .contenedor .loginbackground .loginbackground-gridContainer .tercera-fila {
+  box-sizing: border-box;
+  display: flex;
+  grid-area: 6/start/auto/2;
+}
+/* line 256, ../sass/screen.scss */
+.login-root .contenedor .loginbackground .loginbackground-gridContainer .tercera-fila div {
+  box-sizing: border-box;
+  flex-grow: 1;
+  background-color: #212d63;
+}
+/* line 251, ../sass/screen.scss */
+.login-root .contenedor .loginbackground .loginbackground-gridContainer .cuarta-fila {
+  box-sizing: border-box;
+  display: flex;
+  grid-area: 7/start/auto/4;
+}
+/* line 256, ../sass/screen.scss */
+.login-root .contenedor .loginbackground .loginbackground-gridContainer .cuarta-fila div {
+  box-sizing: border-box;
+  flex-grow: 1;
+  background-color: #5469d4;
+  animation: animationLeftRight 2s ease-in-out infinite;
+}
+/* line 251, ../sass/screen.scss */
+.login-root .contenedor .loginbackground .loginbackground-gridContainer .quinta-fila {
+  box-sizing: border-box;
+  display: flex;
+  grid-area: 8/4/auto/6;
+}
+/* line 256, ../sass/screen.scss */
+.login-root .contenedor .loginbackground .loginbackground-gridContainer .quinta-fila div {
+  box-sizing: border-box;
+  flex-grow: 1;
+  background-color: #e3e8ee;
+  animation: animationLeftRight 3s ease-in-out infinite;
+}
+/* line 251, ../sass/screen.scss */
+.login-root .contenedor .loginbackground .loginbackground-gridContainer .sexta-fila {
+  box-sizing: border-box;
+  display: flex;
+  grid-area: 3/14/auto/end;
+}
+/* line 256, ../sass/screen.scss */
+.login-root .contenedor .loginbackground .loginbackground-gridContainer .sexta-fila div {
+  box-sizing: border-box;
+  flex-grow: 1;
+  background-color: #5469d4;
+  animation: animationRightLeft 2s ease-in-out infinite;
+}
+/* line 251, ../sass/screen.scss */
+.login-root .contenedor .loginbackground .loginbackground-gridContainer .septima-fila {
+  box-sizing: border-box;
+  display: flex;
+  grid-area: 4/17/auto/20;
+}
+/* line 256, ../sass/screen.scss */
+.login-root .contenedor .loginbackground .loginbackground-gridContainer .septima-fila div {
+  box-sizing: border-box;
+  flex-grow: 1;
+  background-color: #e3e8ee;
+  animation: animationLeftRight 4s ease-in-out infinite;
+}
+/* line 251, ../sass/screen.scss */
+.login-root .contenedor .loginbackground .loginbackground-gridContainer .octava-fila {
+  box-sizing: border-box;
+  display: flex;
+  grid-area: 5/14/auto/17;
+}
+/* line 256, ../sass/screen.scss */
+.login-root .contenedor .loginbackground .loginbackground-gridContainer .octava-fila div {
+  box-sizing: border-box;
+  flex-grow: 1;
+  box-shadow: inset 0 0 0 2px #e3e8ee;
+  animation: animationLeftRight 3s ease-in-out infinite;
 }
