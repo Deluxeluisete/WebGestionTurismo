@@ -2,11 +2,12 @@ $numeros: 1 2 3 4 5 6 7 8;
 $filas: primera segunda tercera cuarta quinta sexta septima octava;
 $grid-area: top / start / 8 / end 4 / 2 / auto / 5 6 / start / auto / 2 7 / start / auto / 4 8 / 4 / auto / 6 3 / 14 / auto / end 4 / 17 / auto / 20 5 / 14 / auto / 17;
 $background-color: #5469d4 #e3e8ee #5469d4 #e3e8ee;
-$primera-animacion:animationLeftRight 2s ease-in-out infinite;
-$segunda-animacion:animationLeftRight 3s ease-in-out infinite;
-$tercera-animacion:animationRightLeft 2s ease-in-out infinite;
-$cuarta-animacion:animationLeftRight 4s ease-in-out infinite;
-$animaciones:$primera-animacion  $segunda-animacion $tercera-animacion $cuarta-animacion;
+$primera-animacion: animationLeftRight 2s ease-in-out infinite;
+$segunda-animacion: animationLeftRight 3s ease-in-out infinite;
+$tercera-animacion: animationRightLeft 2s ease-in-out infinite;
+$cuarta-animacion: animationLeftRight 4s ease-in-out infinite;
+$animaciones: $primera-animacion $segunda-animacion $tercera-animacion $cuarta-animacion;
+
 .navbar {
     background-color: #0646f6;
 }
@@ -101,12 +102,13 @@ $animaciones:$primera-animacion  $segunda-animacion $tercera-animacion $cuarta-a
 }
 
 footer {
-    background-color: #0646f6;
+    background-color: #0646f6 ;
     font-size: 14px;
 
 }
 
 .titulos {
+    
     font-size: 30px;
     color: #0646f6;
 }
@@ -243,17 +245,17 @@ body.margin-si {
             top: 0;
             z-index: 0;
             overflow: hidden;
-            background-color: #ffffff;
+            // background-color: #ffffff;
             padding-top: 64px;
 
             .loginbackground-gridContainer {
                 @each $numero in $numeros {
                     .#{nth($filas, $numero)}-fila {
-                        box-sizing: border-box;
+                         box-sizing: border-box;
                         display: flex;
                         grid-area: nth($grid-area, $numero);
-
                         div {
+
                             box-sizing: border-box;
                             flex-grow: 1;
 
@@ -270,7 +272,8 @@ body.margin-si {
                                 background-color: #212d63;
                             }
 
-                            @else if $numero==4 or $numero== 5 or $numero== 6 or $numero== 7{
+                            @else if $numero==4 or $numero==5 or $numero==6 or $numero==7 {
+                                z-index: 0;
                                 background-color: nth($background-color, $numero - 3);
                                 animation: nth($animaciones, $numero - 3);
                             }
@@ -280,4 +283,51 @@ body.margin-si {
             }
         }
     }
+}
+
+@keyframes animationLeftRight {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(1000px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes animationRightLeft {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(-1000px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
+.reset-pass a,
+label {
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+}
+
+.reset-pass>a {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.grid-mitad {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
 }
