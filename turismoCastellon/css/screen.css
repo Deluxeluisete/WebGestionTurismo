@@ -1,36 +1,36 @@
-/* line 11, ../sass/screen.scss */
+/* line 15, ../sass/screen.scss */
 .navbar {
   background-color: #0646f6;
 }
 
-/* line 15, ../sass/screen.scss */
+/* line 19, ../sass/screen.scss */
 .navbar-brand {
   font-size: 1.5rem;
   font-weight: bold;
   color: white;
 }
 
-/* line 21, ../sass/screen.scss */
+/* line 25, ../sass/screen.scss */
 .nav-item {
   font-size: 1.2rem;
 }
 
-/* line 25, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
 .dropdown-menu {
   display: none;
 }
 
-/* line 29, ../sass/screen.scss */
+/* line 33, ../sass/screen.scss */
 .dropdown:hover .dropdown-menu {
   display: block;
 }
 
-/* line 33, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 .carousel-item {
   height: 500px;
 }
 
-/* line 37, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5);
   bottom: 0;
@@ -39,57 +39,81 @@
   padding: 1rem;
   color: white;
 }
-/* line 45, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 .carousel-caption h5 {
   font-size: 1.5rem;
 }
-/* line 49, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 .carousel-caption p {
   font-size: 1.2rem;
 }
 
-/* line 54, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 .section-uno {
   display: flex;
   margin-bottom: 20px;
   margin-top: 20px;
 }
-/* line 59, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 .section-uno .article-izquierda {
   font-size: 20px;
   width: 72%;
   display: inline-block;
   margin-top: 80px;
 }
-/* line 66, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 .section-uno .article-izquierda header h1 {
   margin-left: 25px;
 }
-/* line 70, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 .section-uno .article-izquierda header p {
   margin-left: 30px;
 }
-/* line 76, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 .section-uno .article-derecha {
-  display: inline-block;
+  display: flex;
   width: auto;
   border: 1px solid #000;
   margin-left: 10px;
+  overflow: hidden;
+}
+/* line 87, ../sass/screen.scss */
+.section-uno .article-derecha img {
+  -webkit-transition: transform 0.4s linear;
+  -moz-transition: transform 0.4s linear;
+  transition: transform 0.4s linear;
+}
+/* line 91, ../sass/screen.scss */
+.section-uno .article-derecha img:hover {
+  transform: scale(1.2);
 }
 
-/* line 84, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 .section-dos {
   display: flex;
   margin-bottom: 20px;
   margin-top: 20px;
 }
-/* line 89, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
 .section-dos .article-izquierda {
-  display: inline-block;
+  display: flex;
   margin-left: 20px;
-  width: 70%;
+  border: 1px solid #000;
+  width: 1800px;
+  overflow: hidden;
 }
-/* line 96, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
+.section-dos .article-izquierda img {
+  -webkit-transition: transform 0.4s linear;
+  -moz-transition: transform 0.4s linear;
+  transition: transform 0.4s linear;
+  height: 450px;
+}
+/* line 115, ../sass/screen.scss */
+.section-dos .article-izquierda img:hover {
+  transform: scale(1.2);
+}
+/* line 121, ../sass/screen.scss */
 .section-dos .article-derecha {
   font-size: 20px;
   display: inline-block;
@@ -97,55 +121,65 @@
   margin-left: 20px;
 }
 
-/* line 104, ../sass/screen.scss */
+/* line 129, ../sass/screen.scss */
 footer {
   background-color: #0646f6;
   font-size: 14px;
 }
 
-/* line 110, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 .titulos {
   font-size: 30px;
   color: #0646f6;
 }
 
-/* line 116, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 h1 {
   color: #0646f6 !important;
 }
 
-/* line 120, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 .card-title.titulo-chef:hover {
   text-decoration: underline;
 }
 
-/* line 124, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
 .card-title {
   color: #0646f6;
 }
 
-/* line 128, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 body.margin-si {
   padding-top: 70px;
 }
 
-/* line 132, ../sass/screen.scss */
+/* line 157, ../sass/screen.scss */
 .row {
   width: 100%;
 }
 
-/* line 136, ../sass/screen.scss */
+/* line 161, ../sass/screen.scss */
 .empleado {
   margin-left: 15px;
 }
 
-/* line 140, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 .contenedor-button {
   display: flex;
   justify-content: center;
 }
+/* line 168, ../sass/screen.scss */
+.contenedor-button .btn {
+  background-color: blue;
+  align-items: center;
+}
+/* line 172, ../sass/screen.scss */
+.contenedor-button .btn:hover {
+  color: yellow;
+  background-color: #356afa;
+}
 
-/* line 145, ../sass/screen.scss */
+/* line 178, ../sass/screen.scss */
 .my-button {
   background-color: #6597fa;
   /* Green */
@@ -159,23 +193,23 @@ body.margin-si {
   border-radius: 5px;
 }
 
-/* line 158, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 .my-button:hover {
   background-color: #6037f6;
   /* Dark green */
 }
 
-/* line 163, ../sass/screen.scss */
+/* line 196, ../sass/screen.scss */
 .perfil-derecha {
   margin-top: 100px;
 }
 
-/* line 167, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .h {
   font-size: 22px;
 }
 
-/* line 173, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .contenedor-login {
   box-sizing: border-box;
   padding-top: 24px;
@@ -185,7 +219,7 @@ body.margin-si {
   flex-grow: 1;
   z-index: 9;
 }
-/* line 182, ../sass/screen.scss */
+/* line 215, ../sass/screen.scss */
 .contenedor-login .contenedor-sesion {
   box-sizing: border-box;
   padding-top: 48px;
@@ -194,7 +228,7 @@ body.margin-si {
   -ms-flex-pack: center;
   justify-content: center;
 }
-/* line 193, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
 .contenedor-login div .formulario {
   margin: auto;
   width: 100%;
@@ -203,24 +237,24 @@ body.margin-si {
   border-radius: 4px;
   box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
 }
-/* line 201, ../sass/screen.scss */
+/* line 234, ../sass/screen.scss */
 .contenedor-login div .formulario .titulo {
   padding: 48px;
 }
-/* line 204, ../sass/screen.scss */
+/* line 237, ../sass/screen.scss */
 .contenedor-login div .formulario .titulo span {
   padding-bottom: 15px;
 }
-/* line 209, ../sass/screen.scss */
+/* line 242, ../sass/screen.scss */
 .contenedor-login div .formulario .titulo form .field {
   padding-bottom: 24px;
 }
-/* line 215, ../sass/screen.scss */
+/* line 248, ../sass/screen.scss */
 .contenedor-login div .formulario .titulo form .boton-enviar {
   padding-bottom: 24px;
 }
 
-/* line 224, ../sass/screen.scss */
+/* line 257, ../sass/screen.scss */
 .login-root {
   background: #fff;
   display: flex;
@@ -228,7 +262,7 @@ body.margin-si {
   min-height: 100vh;
   overflow: hidden;
 }
-/* line 231, ../sass/screen.scss */
+/* line 264, ../sass/screen.scss */
 .login-root .contenedor {
   box-sizing: border-box;
   display: flex;
@@ -237,7 +271,7 @@ body.margin-si {
   min-height: 100vh;
   flex-grow: 1;
 }
-/* line 239, ../sass/screen.scss */
+/* line 272, ../sass/screen.scss */
 .login-root .contenedor .loginbackground {
   min-height: 692px;
   position: fixed;
@@ -249,50 +283,50 @@ body.margin-si {
   overflow: hidden;
   padding-top: 64px;
 }
-/* line 253, ../sass/screen.scss */
+/* line 286, ../sass/screen.scss */
 .login-root .contenedor .loginbackground .loginbackground-gridContainer .primera-fila {
   box-sizing: border-box;
   display: flex;
   grid-area: top/start/8/end;
 }
-/* line 257, ../sass/screen.scss */
+/* line 291, ../sass/screen.scss */
 .login-root .contenedor .loginbackground .loginbackground-gridContainer .primera-fila div {
   box-sizing: border-box;
   flex-grow: 1;
   background-image: linear-gradient(white 0%, #f7fafc 33%);
 }
-/* line 253, ../sass/screen.scss */
+/* line 286, ../sass/screen.scss */
 .login-root .contenedor .loginbackground .loginbackground-gridContainer .segunda-fila {
   box-sizing: border-box;
   display: flex;
   grid-area: 4/2/auto/5;
 }
-/* line 257, ../sass/screen.scss */
+/* line 291, ../sass/screen.scss */
 .login-root .contenedor .loginbackground .loginbackground-gridContainer .segunda-fila div {
   box-sizing: border-box;
   flex-grow: 1;
   box-shadow: inset 0 0 0 2px #e3e8ee;
   animation: animationLeftRight 3s ease-in-out infinite;
 }
-/* line 253, ../sass/screen.scss */
+/* line 286, ../sass/screen.scss */
 .login-root .contenedor .loginbackground .loginbackground-gridContainer .tercera-fila {
   box-sizing: border-box;
   display: flex;
   grid-area: 6/start/auto/2;
 }
-/* line 257, ../sass/screen.scss */
+/* line 291, ../sass/screen.scss */
 .login-root .contenedor .loginbackground .loginbackground-gridContainer .tercera-fila div {
   box-sizing: border-box;
   flex-grow: 1;
   background-color: #212d63;
 }
-/* line 253, ../sass/screen.scss */
+/* line 286, ../sass/screen.scss */
 .login-root .contenedor .loginbackground .loginbackground-gridContainer .cuarta-fila {
   box-sizing: border-box;
   display: flex;
   grid-area: 7/start/auto/4;
 }
-/* line 257, ../sass/screen.scss */
+/* line 291, ../sass/screen.scss */
 .login-root .contenedor .loginbackground .loginbackground-gridContainer .cuarta-fila div {
   box-sizing: border-box;
   flex-grow: 1;
@@ -300,13 +334,13 @@ body.margin-si {
   background-color: #5469d4;
   animation: animationLeftRight 2s ease-in-out infinite;
 }
-/* line 253, ../sass/screen.scss */
+/* line 286, ../sass/screen.scss */
 .login-root .contenedor .loginbackground .loginbackground-gridContainer .quinta-fila {
   box-sizing: border-box;
   display: flex;
   grid-area: 8/4/auto/6;
 }
-/* line 257, ../sass/screen.scss */
+/* line 291, ../sass/screen.scss */
 .login-root .contenedor .loginbackground .loginbackground-gridContainer .quinta-fila div {
   box-sizing: border-box;
   flex-grow: 1;
@@ -314,13 +348,13 @@ body.margin-si {
   background-color: #e3e8ee;
   animation: animationLeftRight 3s ease-in-out infinite;
 }
-/* line 253, ../sass/screen.scss */
+/* line 286, ../sass/screen.scss */
 .login-root .contenedor .loginbackground .loginbackground-gridContainer .sexta-fila {
   box-sizing: border-box;
   display: flex;
   grid-area: 3/14/auto/end;
 }
-/* line 257, ../sass/screen.scss */
+/* line 291, ../sass/screen.scss */
 .login-root .contenedor .loginbackground .loginbackground-gridContainer .sexta-fila div {
   box-sizing: border-box;
   flex-grow: 1;
@@ -328,13 +362,13 @@ body.margin-si {
   background-color: #5469d4;
   animation: animationRightLeft 2s ease-in-out infinite;
 }
-/* line 253, ../sass/screen.scss */
+/* line 286, ../sass/screen.scss */
 .login-root .contenedor .loginbackground .loginbackground-gridContainer .septima-fila {
   box-sizing: border-box;
   display: flex;
   grid-area: 4/17/auto/20;
 }
-/* line 257, ../sass/screen.scss */
+/* line 291, ../sass/screen.scss */
 .login-root .contenedor .loginbackground .loginbackground-gridContainer .septima-fila div {
   box-sizing: border-box;
   flex-grow: 1;
@@ -342,13 +376,13 @@ body.margin-si {
   background-color: #e3e8ee;
   animation: animationLeftRight 4s ease-in-out infinite;
 }
-/* line 253, ../sass/screen.scss */
+/* line 286, ../sass/screen.scss */
 .login-root .contenedor .loginbackground .loginbackground-gridContainer .octava-fila {
   box-sizing: border-box;
   display: flex;
   grid-area: 5/14/auto/17;
 }
-/* line 257, ../sass/screen.scss */
+/* line 291, ../sass/screen.scss */
 .login-root .contenedor .loginbackground .loginbackground-gridContainer .octava-fila div {
   box-sizing: border-box;
   flex-grow: 1;
@@ -378,7 +412,7 @@ body.margin-si {
     transform: translateX(0px);
   }
 }
-/* line 317, ../sass/screen.scss */
+/* line 351, ../sass/screen.scss */
 .reset-pass a,
 label {
   font-size: 14px;
@@ -386,15 +420,116 @@ label {
   display: block;
 }
 
-/* line 324, ../sass/screen.scss */
+/* line 358, ../sass/screen.scss */
 .reset-pass > a {
   text-align: right;
   margin-bottom: 10px;
 }
 
-/* line 329, ../sass/screen.scss */
+/* line 363, ../sass/screen.scss */
 .grid-mitad {
   display: grid;
   grid-template-columns: 50% 50%;
   align-items: center;
+}
+
+/* line 370, ../sass/screen.scss */
+.body-register {
+  background-color: #dee9ff;
+}
+/* line 373, ../sass/screen.scss */
+.body-register .registration-form {
+  padding-top: 50px;
+}
+/* line 376, ../sass/screen.scss */
+.body-register .registration-form form {
+  background-color: #fff;
+  max-width: 600px;
+  margin: auto;
+  padding: 50px 70px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+/* line 386, ../sass/screen.scss */
+.body-register .registration-form .form-icon {
+  text-align: center;
+  background-color: #5891ff;
+  border-radius: 50%;
+  font-size: 40px;
+  color: white;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-bottom: 50px;
+  line-height: 100px;
+}
+/* line 399, ../sass/screen.scss */
+.body-register .registration-form .item {
+  border-radius: 20px;
+  margin-bottom: 25px;
+  padding: 10px 20px;
+}
+/* line 405, ../sass/screen.scss */
+.body-register .registration-form .create-account {
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #5791ff;
+  border: none;
+  color: white;
+  margin-top: 20px;
+}
+/* line 416, ../sass/screen.scss */
+.body-register .registration-form .social-media {
+  max-width: 600px;
+  background-color: #fff;
+  margin: auto;
+  padding: 35px 0;
+  text-align: center;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: #9fadca;
+  border-top: 1px solid #dee9ff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+/* line 429, ../sass/screen.scss */
+.body-register .registration-form .social-icons {
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+/* line 433, ../sass/screen.scss */
+.body-register .registration-form .social-icons a {
+  font-size: 23px;
+  margin: 0 3px;
+  color: #5691ff;
+  border: 1px solid;
+  border-radius: 50%;
+  width: 45px;
+  display: inline-block;
+  height: 45px;
+  text-align: center;
+  background-color: #fff;
+  line-height: 45px;
+}
+/* line 447, ../sass/screen.scss */
+.body-register .registration-form .social-icons a:hover {
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+@media (max-width: 576px) {
+  /* line 457, ../sass/screen.scss */
+  .registration-form form {
+    padding: 50px 20px;
+  }
+
+  /* line 461, ../sass/screen.scss */
+  .registration-form .form-icon {
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    line-height: 70px;
+  }
 }
