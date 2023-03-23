@@ -9,15 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <link href="css/screen.css" rel="stylesheet" />
     <link href="assets/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-
-
-    <title>Descubre lo mejor de Alcossebre</title>
-    <!-- Agregar los enlaces a los archivos CSS de Bootstrap y de estilo personalizado -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 
@@ -42,19 +37,18 @@
                         Destinos
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="chefs.html">Castellón</a>
+                        <a class="dropdown-item" href="login.html">Castellón</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="chefs.html">Alcossebre</a>
+                        <a class="dropdown-item" href="register.html">Alcossebre</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="chefs.html">Benicassim</a>
+                        <a class="dropdown-item" href="benicassim.html">Benicassim</a>
                         <div class="dropdown-divider"></div>
-
-                        <a class="dropdown-item" href="chefs.html">Peñiscola</a>
+                        <a class="dropdown-item" href="peñiscola.html">Peñiscola</a>
                     </div>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link text-light ml-2" href="membresia.html">Personalizar Viaje</a>
+                    <a class="nav-link text-light ml-2" href="viaje.html">Personalizar Viaje</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-light ml-2" href="contacto.html">Contacto</a>
@@ -64,7 +58,7 @@
                 </li>
 
             </ul>
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ml-auto">
                 <li>
                     <form class="form-inline  ">
                         <input class="form-control mr-sm-2" type="search" placeholder="">
@@ -76,280 +70,194 @@
     </nav>
 
 
-    <body>
-        <header>
-            <!-- Banner con la imagen y la llamada a la acción -->
-            <div class="jumbotron jumbotron-fluid">
-                <div class="container">
-                    <h1 class="display-4">Descubre lo mejor de Alcossebre</h1>
-                    <p class="lead">Explora nuestros hoteles, restaurantes y actividades turísticas</p>
-                </div>
+    <style>
+        .jumbotron {
+            background-image: url('assets/aquarama.jpg');
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 0;
+        }
+
+        h1 {
+            font-size: 5rem;
+            margin-bottom: 2rem;
+            text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
+        }
+
+        .btn-primary {
+            font-size: 1.5rem;
+            padding: 1rem 2rem;
+            margin-top: 2rem;
+        }
+    </style>
+
+
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Peñíscola</h1>
+            <p>Descubre este hermoso pueblo costero en la provincia de Castellón</p>
+            <a href="#sobre-peniscola" class="btn btn-primary btn-lg">Saber más</a>
+        </div>
+    </div>
+
+    <section id="sobre-peniscola" class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Sobre Peñíscola</h2>
+                <p>Peñíscola es una ciudad y municipio español situado en la costa mediterránea, en la provincia de
+                    Castellón. Es conocida por su impresionante castillo, construido por los Caballeros Templarios en el
+                    siglo XIII y más tarde utilizado como residencia por el Papa Benedicto XIII en el siglo XV.</p>
+                <p>La ciudad también cuenta con una hermosa playa de arena dorada, numerosos restaurantes y bares, y una
+                    gran variedad de actividades al aire libre, como senderismo, ciclismo y deportes acuáticos.</p>
             </div>
-        </header>
-
-        <main>
-            <section>
-                <div class="container " style="font-size: 20px;">
-                    <div class="row">
-                        <div class="col-md-12 mb-4">
-                            <p>
-                                Entre los productos de nuestra tierra destaca “la Tomata de Penjar”, una variedad
-                                tradicional de tomate cultivada desde hace más de un siglo en el municipio, y
-                                caracterizada, entre otras cosas, por un sabor especial, una larga conservación y un
-                                manipulado final totalmente artesanal. Factores todos ellos que la hacen única y
-                                diferente al resto de productos similares presentes en los mercados. Ha conseguido la
-                                distinción de Marca de Calidad "CV", está dentro de los productos de "Castelló Ruta de
-                                Sabor" y también posee la distinción "Marca Parcs Naturals de la Comunitat Valenciana".
-
-
-                            </p>
-                            <p> Así mismo son imprescindibles en nuestra cocina productos locales de excelente calidad
-                                como, la alcachofa, la almendra, el aceite, la borraja etc., y por supuesto, dada su
-                                situación geográfica, el pescado y el marisco, preparados con la técnica aprendida de
-                                las más antiguas tradiciones culinarias del lugar y lista para ser degustada a orillas
-                                mismas del Mar Mediterráneo.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="text-center">
-                        <img src="assets/alcossebreMostrar.jpg" height="500px" width="1050px">
-                    </div>
-                </div>
-
-            </section>
-
-            <section id="gastronomia">
-                <div class="container">
-                    <h1 class="text-center mb-4 mt-5">Gastronomía</h1>
-                    <div class="row">
-                        <div class="col-md-6 mb-4 d-flex align-items-center" style="font-size: 18px;">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vero ipsa dolorem
-                                minima nesciunt officia, accusamus pariatur temporibus dolor corrupti unde facilis quod
-                                iusto soluta provident possimus totam? Qui, blanditiis.</p>
-                        </div>
-                        <div class="col-md-4 mb-4">
-                            <div>
-                                <img src="assets/rest1.jpg" height="290px">
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 mb-4">
-                            <div>
-                                <img src="assets/rest1.jpg" height="290px">
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-4 d-flex align-items-center ms-auto" style="font-size: 18px;">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vero ipsa dolorem
-                                minima nesciunt officia, accusamus pariatur temporibus dolor corrupti unde facilis quod
-                                iusto soluta provident possimus totam? Qui, blanditiis.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 mb-4 d-flex align-items-center" style="font-size: 18px;">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vero ipsa dolorem
-                                minima nesciunt officia, accusamus pariatur temporibus dolor corrupti unde facilis quod
-                                iusto soluta provident possimus totam? Qui, blanditiis.</p>
-                        </div>
-                        <div class="col-md-4 mb-4">
-                            <div>
-                                <img src="assets/rest1.jpg" height="290px">
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <section id="actividades">
-                    <h1 class="text-center mb-4">Actividades turísticas</h1>
-                    <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 mb-4">
-                            <p>
-                                Entre los productos de nuestra tierra destaca “la Tomata de Penjar”, una variedad
-                                tradicional de tomate cultivada desde hace más de un siglo en el municipio, y
-                                caracterizada, entre otras cosas, por un sabor especial, una larga conservación y un
-                                manipulado final totalmente artesanal. Factores todos ellos que la hacen única y
-                                diferente al resto de productos similares presentes en los mercados. Ha conseguido la
-                                distinción de Marca de Calidad "CV", está dentro de los productos de "Castelló Ruta de
-                                Sabor" y también posee la distinción "Marca Parcs Naturals de la Comunitat Valenciana".
-
-
-                            </p>
-                            <p> Así mismo son imprescindibles en nuestra cocina productos locales de excelente calidad
-                                como, la alcachofa, la almendra, el aceite, la borraja etc., y por supuesto, dada su
-                                situación geográfica, el pescado y el marisco, preparados con la técnica aprendida de
-                                las más antiguas tradiciones culinarias del lugar y lista para ser degustada a orillas
-                                mismas del Mar Mediterráneo.</p>
-                        </div>
-                    </div>
-                </div>
-                    <div class="row">
-                        <!-- Tarjetas con las imágenes y descripciones de las actividades -->
-                        <div class="col-md-3 mb-4">
-                            <div class="card" style="margin-left: 15px;">
-                                <img src="assets/rest1.jpg" class="card-img-top" alt="Actividad 1">
-                                <div class="card-body">
-                                    <h5 class="card-title">Nombre de la actividad 1</h5>
-                                    <p class="card-text">Descripción de la actividad 1</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 mb-4">
-                            <div class="card">
-                                <img src="assets/rest1.jpg" class="card-img-top" alt="Actividad 2">
-                                <div class="card-body">
-                                    <h5 class="card-title">Nombre de la actividad 2</h5>
-                                    <p class="card-text">Descripción de la actividad 2</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 mb-4">
-                            <div class="card">
-                                <img src="assets/rest1.jpg" class="card-img-top" alt="Actividad 3">
-                                <div class="card-body">
-                                    <h5 class="card-title">Nombre de la actividad 3</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md mb-4">
-                            <div class="card">
-                                <img src="assets/rest1.jpg  " class="card-img-top" alt="Actividad 3">
-                                <div class="card-body">
-                                    <h5 class="card-title">Nombre de la actividad 3</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            </section>  
-            <section id="hoteles">
-                <div class="container">
-                    <h2 class="text-center mb-4">Hoteles</h2>
-                    <div class="row">
-                        <!-- Tarjetas con las imágenes y descripciones de los hoteles -->
-                        <div class="col-md-4 mb-4">
-                            <div class="card">
-                                <img src="assets/rest1.jpg" class="card-img-top" alt="Hotel 1">
-                                <div class="card-body">
-                                    <h5 class="card-title">Nombre del hotel 1</h5>
-                                    <p class="card-text">Descripción del hotel 1</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-4">
-                            <div class="card">
-                                <img src="hotel2.jpg" class="card-img-top" alt="Hotel 2">
-                                <div class="card-body">
-                                    <h5 class="card-title">Nombre del hotel 2</h5>
-                                    <p class="card-text">Descripción del hotel 2</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mb-4">
-                            <div class="card">
-                                <img src="hotel3.jpg" class="card-img-top" alt="Hotel 3">
-                                <div class="card-body">
-                                    <h5 class="card-title">Nombre del hotel 3</h5>
-                                    <p class="card-text">Descripción del hotel 3</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-
-            <!-- Sección de actividades turísticas -->
-      
-        </main>
-        <footer class="mt-5 py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <h5 class="text-uppercase text-white">Contactactanos</h5>
-                        <ul class="list-unstyled">
-                            <li class="py-2">
-                                <i class="fa fa-envelope text-primary mr-2"></i>
-                                <a href="mailto:luis.suarez@iesdoctorbalmis.com"
-                                    class="text-white">luis.suarez@iesdoctorbalmis.com</a>
-                            </li>
-                            <li class="py-2">
-                                <i class="fa fa-phone text-primary mr-2"></i>
-                                <a href="tel:640554412" class="text-white">640554412</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <h5 class="text-uppercase text-white">Nosotros</h5>
-                        <ul class="list-unstyled">
-                            <li class="">
-                                <a href="#" class="text-white">Sobre nosotros</a>
-                            </li>
-                            <li class="">
-                                <a href="#" class="text-white">servicios</a>
-                            </li>
-                            <li class="">
-                                <a href="#" class="text-white">Blog</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-                        <h5 class="text-uppercase text-white">Soporte</h5>
-                        <ul class="list-unstyled">
-                            <li class="">
-                                <a href="aviso.html" class="text-white">Aviso legal</a>
-                            </li>
-                            <li class="">
-                                <a href="#" class="text-white">Politica de privacidad</a>
-                            </li>
-                            <li class="">
-                                <a href="#" class="text-white">Terminos de servicio</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h5 class="text-uppercase text-white">Siguenos</h5>
-                        <ul class="list-inline">
-                            <li class="list-inline-item">
-                                <a href="#" class="text-white">
-                                    <i>Facebook</i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#" class="text-white">
-                                    <i>Instagram</i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#" class="text-white">
-                                    <i>Twitter</i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        </footer>
-        <div class="bg-light py-3">
-            <div class="container">
-                <p class="text-center">2023, Desarrollado por <em>Luis Suarez Abarca</em></p>
+            <div class="col-md-6">
+                <img src="assets/playacastellon.jpg" class="img-fluid" alt="Playa de Peñíscola">
             </div>
         </div>
+    </section>
+    <div class="container">
+        <h2 class="text-center mb-4">Gastronomía de Peñíscola</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="ruta/a/tu/imagen1.jpg" class="card-img-top" alt="Plato típico de Peñíscola">
+                    <div class="card-body">
+                        <h5 class="card-title">Paella de mariscos</h5>
+                        <p class="card-text">Este plato típico de la región de Valencia es muy popular en Peñíscola. Se
+                            elabora con arroz, mariscos y verduras, y se cocina en una paellera de hierro sobre fuego de
+                            leña.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="ruta/a/tu/imagen2.jpg" class="card-img-top" alt="Postre típico de Peñíscola">
+                    <div class="card-body">
+                        <h5 class="card-title">Pastissets de boniato</h5>
+                        <p class="card-text">Este postre típico de la Comunidad Valenciana se elabora con una masa dulce
+                            rellena de boniato confitado. Es un bocado delicioso y muy popular en Peñíscola.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="assets/pulpo.jpg" class="card-img-top" alt="Bebida típica de Peñíscola">
+                    <div class="card-body">
+                        <h5 class="card-title">Licor de hierbas</h5>
+                        <p class="card-text">Este licor se elabora a partir de una infusión de hierbas y se sirve como
+                            digestivo después de las comidas. Es una bebida muy popular en Peñíscola y en toda la región
+                            de Valencia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-        </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-        </script>
-    </body>
+    <style>
+        .card {
+            border: none;
+            border-radius: 0.5rem;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-0.5rem);
+        }
+    </style>
+    <section id="que-hacer" class="bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">¿Qué hacer en Peñíscola?</h2>
+            <div class="row mb-5">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="assets/alcossebrenubes.jpg" class="img-fluid" alt="Actividades acuáticas en Peñíscola">
+                </div>
+                <div class="col-md-6">
+                    <h3>Actividades acuáticas</h3>
+                    <p>Peñíscola es un destino perfecto para los amantes del mar y los deportes acuáticos. Puedes
+                        disfrutar de actividades como:</p>
+                    <ul>
+                        <li>Windsurf</li>
+                        <li>Kayak</li>
+                        <li>Paddle surf</li>
+                        <li>Buceo</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-6 order-2 order-md-1">
+                    <h3>Visita al castillo</h3>
+                    <p>El castillo de Peñíscola es uno de los principales atractivos turísticos de la ciudad. Desde
+                        allí, podrás disfrutar de unas vistas impresionantes del mar y de la ciudad. Además, en su
+                        interior podrás encontrar diferentes exposiciones y actividades culturales.</p>
+                </div>
+                <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+                    <img src="assets/aquarama.jpg" class="img-fluid" alt="Vistas del castillo de Peñíscola">
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="assets/Alcala-de-Xivert_Alcossebre_Esglesia.jpg" class="img-fluid"
+                        alt="Senderismo en Peñíscola">
+                </div>
+                <div class="col-md-6">
+                    <h3>Senderismo</h3>
+                    <p>Si te gusta la naturaleza, en Peñíscola podrás disfrutar de diferentes rutas de senderismo que te
+                        llevarán a través de los paisajes más impresionantes de la zona. Algunas de las rutas más
+                        populares son:</p>
+                    <ul>
+                        <li>El parque natural de la Sierra de Irta</li>
+                        <li>La ruta de la Font Nova</li>
+                        <li>La ruta del Camino del Cid</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        section#que-hacer h2 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #333;
+            text-transform: uppercase;
+        }
+
+        section#que-hacer h3 {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333;
+        }
+
+        section#que-hacer p {
+            font-size: 1.2rem;
+            color: #555;
+            line-height: 1.6;
+        }
+    </style>
+    <!-- Aquí irían más secciones de la página -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+</body>
 
 </html>
